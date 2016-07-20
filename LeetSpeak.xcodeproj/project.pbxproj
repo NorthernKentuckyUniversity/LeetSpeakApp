@@ -13,6 +13,7 @@
 		E3B471C81D3EB75E004646CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B471C71D3EB75E004646CB /* Assets.xcassets */; };
 		E3B471CB1D3EB75E004646CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B471C91D3EB75E004646CB /* LaunchScreen.storyboard */; };
 		E3B471D61D3EB75E004646CB /* LeetSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B471D51D3EB75E004646CB /* LeetSpeakTests.swift */; };
+		E3CE6B8A1D3F0758008423F4 /* Convert Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE6B891D3F0758008423F4 /* Convert Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E3B471D11D3EB75E004646CB /* LeetSpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetSpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B471D51D3EB75E004646CB /* LeetSpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetSpeakTests.swift; sourceTree = "<group>"; };
 		E3B471D71D3EB75E004646CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CE6B891D3F0758008423F4 /* Convert Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Convert Tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E3B471D41D3EB75E004646CB /* LeetSpeakTests */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE6B891D3F0758008423F4 /* Convert Tests.swift */,
 				E3B471D51D3EB75E004646CB /* LeetSpeakTests.swift */,
 				E3B471D71D3EB75E004646CB /* Info.plist */,
 			);
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CE6B8A1D3F0758008423F4 /* Convert Tests.swift in Sources */,
 				E3B471D61D3EB75E004646CB /* LeetSpeakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +394,7 @@
 				E3B471DC1D3EB75E004646CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3B471DD1D3EB75E004646CB /* Build configuration list for PBXNativeTarget "LeetSpeakTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				E3B471DF1D3EB75E004646CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
